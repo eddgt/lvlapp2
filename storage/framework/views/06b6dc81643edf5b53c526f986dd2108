@@ -1,0 +1,6 @@
+<div class="form-group">
+			<?php echo Form::label('genero','Genero:'); ?>
+
+			<?php echo Form::text('genre',null,['class'=>'form-control', 'placeholder'=>'Ingresa el Genero de la Pelicula']); ?>
+
+		</div>

@@ -1,0 +1,22 @@
+<div class="form-group">
+            <?php echo Form::label('nombre','Nombre:'); ?>
+
+            <?php echo Form::text('name',null,['class'=>'form-control', 'placeholder'=>'Ingresa el Nombre la Pelicula']); ?>
+
+            <?php echo Form::label('cast','Cast:'); ?>
+
+            <?php echo Form::text('cast',null,['class'=>'form-control', 'placeholder'=>'Ingresa Cast']); ?>
+
+            <?php echo Form::label('direction','Direccion:'); ?>
+
+            <?php echo Form::text('direction',null,['class'=>'form-control', 'placeholder'=>'Ingresa Direccion']); ?>
+
+            <?php echo Form::label('duration','Duracion:'); ?>
+
+            <?php echo Form::text('duration',null,['class'=>'form-control', 'placeholder'=>'Ingresa Duracion']); ?>
+
+            <?php echo Form::label('genre_id','ID_Genero:'); ?>
+
+            <?php echo Form::text('genre_id',1,['class'=>'form-control', 'placeholder'=>'Ingresa ']); ?>
+
+        </div>        
