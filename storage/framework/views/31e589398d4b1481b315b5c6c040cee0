@@ -2,7 +2,13 @@
 	<?php echo Form::model($movie,['route'=> ['pelicula.update',$movie->id],'method'=>'PUT']); ?>
 
 		<?php echo $__env->make('movie.forms.mv', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-		<?php echo Form::submit('Guardar',['class'=>'btn btn-primary']); ?>
+		<?php echo Form::submit('Actualizar',['class'=>'btn btn-primary']); ?>
+
+	<?php echo Form::close(); ?>
+
+
+	<?php echo Form::open(['route'=> ['pelicula.destroy',$movie->id],'method'=>'DELETE']); ?>		
+		<?php echo Form::submit('Eliminar',['class'=>'btn btn-danger']); ?>
 
 	<?php echo Form::close(); ?>
 
