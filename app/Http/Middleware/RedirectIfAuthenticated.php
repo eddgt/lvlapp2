@@ -35,7 +35,7 @@ class RedirectIfAuthenticated
     public function handle($request, Closure $next)
     {
         if ($this->auth->check()) {
-            return redirect('/pelicula');//osmangt1 redireccionar si es un usuaro valido (ej hacia /home)
+            return redirect('/home');//osmangt1 redireccionar si es un usuaro valido (ej hacia /home)
         }
 
         return $next($request);
