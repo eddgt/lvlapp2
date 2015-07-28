@@ -42,7 +42,11 @@
                         <li><a href="#"><i class="fa fa-gear fa-fw"></i> Ajustes</a>
                         </li>
                         <li class="divider"></li>
+<<<<<<< HEAD
                         <li><a href="{{URL::to('auth/logout')}}"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+=======
+                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+>>>>>>> 48912e5747439d714251d1d0b7b31e4ca1b698d0
                         </li>
                     </ul>
                 </li>
@@ -56,11 +60,19 @@
                             <a href="#"><i class="fa fa-users fa-fw"></i> Usuario<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
+<<<<<<< HEAD
                                     <a href="{{URL::to('usuario/create')}}"><i class='fa fa-plus fa-fw'></i> Agregar</a>
                                 
                                 </li>
                                 <li>
                                     <a href="{{URL::to('usuario')}}"><i class='fa fa-list-ol fa-fw'></i> Usuarios</a>
+=======
+                                    <a href="create"><i class='fa fa-plus fa-fw'></i> Agregar</a>
+                                
+                                </li>
+                                <li>
+                                    <a href="usuario"><i class='fa fa-list-ol fa-fw'></i> Usuarios</a>
+>>>>>>> 48912e5747439d714251d1d0b7b31e4ca1b698d0
                                 </li>
                             </ul>
                         </li>
@@ -69,10 +81,17 @@
                             <a href="#"><i class="fa fa-film fa-fw"></i> Pelicula<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
+<<<<<<< HEAD
                                     <a href="{{URL::to('pelicula/create')}}"><i class='fa fa-plus fa-fw'></i> Agregar</a>
                                 </li>
                                 <li>
                                     <a href="{{URL::to('pelicula')}}"><i class='fa fa-list-ol fa-fw'></i> Peliculas</a>
+=======
+                                    <a href="#"><i class='fa fa-plus fa-fw'></i> Agregar</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class='fa fa-list-ol fa-fw'></i> Peliculas</a>
+>>>>>>> 48912e5747439d714251d1d0b7b31e4ca1b698d0
                                 </li>
                             </ul>
                         </li>
@@ -81,10 +100,17 @@
                             <a href="#"><i class="fa fa-child fa-fw"></i> Genero<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
+<<<<<<< HEAD
                                     <a href="{{URL::to('genero/create')}}"><i class='fa fa-plus fa-fw'></i> Agregar</a>
                                 </li>
                                 <li>
                                     <a href="{{URL::to('genero')}}"><i class='fa fa-list-ol fa-fw'></i> Generos</a>
+=======
+                                    <a href="#"><i class='fa fa-plus fa-fw'></i> Agregar</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class='fa fa-list-ol fa-fw'></i> Generos</a>
+>>>>>>> 48912e5747439d714251d1d0b7b31e4ca1b698d0
                                 </li>
                             </ul>
                         </li>

@@ -25,5 +25,8 @@
 		</tbody>
 		@endforeach
 	</table>
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 48912e5747439d714251d1d0b7b31e4ca1b698d0
 @stop

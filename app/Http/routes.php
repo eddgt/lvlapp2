@@ -12,7 +12,10 @@
 */
 
 Route::get('/','FrontController@index');
+<<<<<<< HEAD
 Route::get('/home','HomeController@index');
+=======
+>>>>>>> 48912e5747439d714251d1d0b7b31e4ca1b698d0
 Route::get('contacto','FrontController@contacto');
 Route::get('reviews','FrontController@reviews');
 Route::get('admin','FrontController@admin');
@@ -20,6 +23,7 @@ Route::get('admin','FrontController@admin');
 
 Route::resource('usuario','UsuarioController');
 Route::resource('pelicula','MovieController');
+<<<<<<< HEAD
 Route::resource('genero','GenreController');
 
 
@@ -39,3 +43,6 @@ Route::post('password/email', 'Auth\PasswordController@postEmail');
 // Password reset routes...
 Route::get('password/reset/{token}', 'Auth\PasswordController@getReset');
 Route::post('password/reset', 'Auth\PasswordController@postReset');
+=======
+Route::resource('genero','GenreController');
+>>>>>>> 48912e5747439d714251d1d0b7b31e4ca1b698d0

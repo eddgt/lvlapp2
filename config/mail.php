@@ -28,8 +28,12 @@ return [
     |
     */
 
+<<<<<<< HEAD
     #'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
     'host' => env('MAIL_HOST', 'smtp.gmail.com'), #osmangt1   
+=======
+    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+>>>>>>> 48912e5747439d714251d1d0b7b31e4ca1b698d0
 
     /*
     |--------------------------------------------------------------------------
@@ -42,8 +46,12 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'port' => env('MAIL_PORT',587),
     #'port' => env('MAIL_PORT'),#osmangt1
+=======
+    'port' => env('MAIL_PORT', 587),
+>>>>>>> 48912e5747439d714251d1d0b7b31e4ca1b698d0
 
     /*
     |--------------------------------------------------------------------------
@@ -56,9 +64,13 @@ return [
     |
     */
 
+<<<<<<< HEAD
     #'from' => ['address' => null, 'name' => null],
     'from' => ['address' => 'usuraiopdh@gmail.com', 'name' => 'Wsnippets'],#osmangt1
     
+=======
+    'from' => ['address' => null, 'name' => null],
+>>>>>>> 48912e5747439d714251d1d0b7b31e4ca1b698d0
 
     /*
     |--------------------------------------------------------------------------
@@ -72,7 +84,10 @@ return [
     */
 
     'encryption' => env('MAIL_ENCRYPTION', 'tls'),
+<<<<<<< HEAD
     #'encryption' => env('MAIL_ENCRYPTION','ssl'),#osmangt1
+=======
+>>>>>>> 48912e5747439d714251d1d0b7b31e4ca1b698d0
 
     /*
     |--------------------------------------------------------------------------

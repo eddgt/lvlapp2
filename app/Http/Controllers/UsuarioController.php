@@ -43,7 +43,11 @@ class UsuarioController extends Controller {
 			'password' =>  $request['password'],
 			]);
 
+<<<<<<< HEAD
 		return redirect('/usuario')->with('message','Usuario Creado Exitosamente');
+=======
+		return redirect('/usuario')->with('message','store');
+>>>>>>> 48912e5747439d714251d1d0b7b31e4ca1b698d0
 	}
 
 	/**

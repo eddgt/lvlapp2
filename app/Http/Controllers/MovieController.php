@@ -19,8 +19,12 @@ class MovieController extends Controller
      */
     public function index()
     {
+<<<<<<< HEAD
         //$movies = Movie::All();//mostrar todos
         $movies = Movie::paginate(3);//paginar los registros
+=======
+        $movies = Movie::All();
+>>>>>>> 48912e5747439d714251d1d0b7b31e4ca1b698d0
         return view('movie.index',compact('movies'));
     }
 
@@ -98,8 +102,12 @@ class MovieController extends Controller
      */
     public function destroy($id)
     {
+<<<<<<< HEAD
         Movie::destroy($id);
         Session::flash('message','Usuario Eliminado correctamente');
         return Redirect::to('/pelicula');
+=======
+        //
+>>>>>>> 48912e5747439d714251d1d0b7b31e4ca1b698d0
     }
 }
